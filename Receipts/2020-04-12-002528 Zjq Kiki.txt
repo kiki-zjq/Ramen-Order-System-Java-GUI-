@@ -1,0 +1,17 @@
+User: Zjq Kiki
+User id: ZK0007
+Date: 2020-04-12-00:25:28
+Soup: Shoyu
+Noodle: Soft
+Nori: Yes
+Chashu: Yes
+BoiledEgg: Yes
+Spiciness: 1
+Extra Nori: No
+Extra BoiledEgg:Yes
+BambooShoot: Yes
+Extra Chashu: Yes
+Total Price: 12.99
+If Free: No
+Pay Option: cash
+Packet: Eat-in

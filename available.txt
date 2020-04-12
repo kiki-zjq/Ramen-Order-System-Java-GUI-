@@ -1,0 +1,12 @@
+soupTonkotsu true
+soupShoyu true
+soupShio true
+noodleSoft false
+noodleMedium true
+noodleFirm true
+onion true
+nori false
+chashu true
+boiledEgg true
+spiciness true
+bamboo true

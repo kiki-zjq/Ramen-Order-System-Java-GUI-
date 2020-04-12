@@ -1,0 +1,23 @@
+2020-04-10-22:53:02 000000 Shoyu Firm Just-a-little No No Yes 3 No No No No No 9.99 cash
+2020-04-10-23:01:56 000000 Shoyu Medium Just-a-little No Yes No 3 No No No No No 9.99 cash
+2020-04-10-23:05:32 null Shoyu Medium Just-a-little No No No 2 No No No No No 9.99 cash
+2020-04-10-23:30:17 null Shoyu Medium Just-a-little Yes Yes No 2 No No No No No 9.99 cash
+2020-04-11-00:04:08 null Shio Medium Just-a-little No No No 3 No No No No No 9.99 cash
+2020-04-11-00:07:04 null Shoyu Medium Just-a-little No Yes Yes 2 No No No No No 9.99 cash
+2020-04-11-00:13:56 null Shoyu Medium Just-a-little No No Yes 3 No No No No No 9.99 cash
+2020-04-11-00:14:50 null Shoyu Medium Just-a-little Yes Yes No 2 No No No No No 9.99 cash
+2020-04-11-00:16:00 null Tonkotsu Soft Just-a-little No No Yes 2 No No No No No 9.99 cash
+2020-04-11-00:18:17 null Shoyu Soft Just-a-little No No No 1 No No No No No 9.99 cash
+2020-04-11-00:19:42 null Shoyu Soft Just-a-little Yes No Yes 1 No No No No No 9.99 cash
+2020-04-11-00:20:36 null Shoyu Medium Just-a-little No Yes No 3 No No No No No 9.99 cash
+2020-04-11-00:21:48 null Tonkotsu Medium No-please No No Yes 2 No No No No No 9.99 cash
+2020-04-11-00:23:05 null Shio Medium Just-a-little No Yes No 2 No No No No No 9.99 cash
+2020-04-12-00:25:28 000000 Shoyu Soft No-please Yes Yes Yes 1 No Yes Yes Yes No 12.99 cash Eat-in
+2020-04-12-00:26:41 000000 Tonkotsu Soft No-please Yes No Yes 0(No) No No No No No 9.99 cash Take-out
+2020-04-12-00:29:29 000000 Tonkotsu Soft No-please Yes No Yes 1 No No No No No 9.99 cash Eat-in
+2020-04-12-00:30:07 null Tonkotsu Medium No-please Yes Yes Yes 0(No) No No No No Yes 9.99 stamp Eat-in
+2020-04-12-00:30:33 null Shoyu Medium No-please Yes Yes No 0(No) No No No No Yes 9.99 stamp Eat-in
+2020-04-12-00:45:44 000000 Tonkotsu Medium Just-a-little No No Yes 0(No) No No No No No 9.99 cash Eat-in
+2020-04-12-00:54:31 000000 Shoyu Soft Just-a-little No Yes Yes 0(No) No No No No No 9.99 cash Eat-in
+2020-04-12-00:56:18 null Shoyu Soft Just-a-little No Yes No 1 No No No No Yes 9.99 stamp Eat-in
+2020-04-12-00:57:41 null Shio Medium Just-a-little Yes Yes Yes 1 No No No No No 9.99 cash Take-out
