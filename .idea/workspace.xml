@@ -52,7 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -89,12 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dao.CustomerDao" />
+    <configuration name="ControlPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Control.ControlPrice" />
       <module name="Software_Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="Control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
       <option name="MAIN_CLASS_NAME" value="GUI.start" />
       <module name="Software_Engineering" />
       <extension name="coverage">
@@ -144,18 +146,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ControlBill" />
-      <item itemvalue="Application.CustomerDao" />
       <item itemvalue="Application.LogIn" />
       <item itemvalue="Application.Mydemo" />
       <item itemvalue="Application.start" />
+      <item itemvalue="Application.ControlPrice" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.start" />
+        <item itemvalue="Application.ControlPrice" />
         <item itemvalue="Application.Mydemo" />
         <item itemvalue="Application.LogIn" />
         <item itemvalue="Application.ControlBill" />
-        <item itemvalue="Application.CustomerDao" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +200,23 @@
       <workItem from="1586594185624" duration="7682000" />
       <workItem from="1586611128953" duration="200000" />
       <workItem from="1586621365449" duration="646000" />
-      <workItem from="1586622220482" duration="2125000" />
+      <workItem from="1586668228442" duration="2380000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="-9" y="89" key="#Project_Structure" timestamp="1586594249802">

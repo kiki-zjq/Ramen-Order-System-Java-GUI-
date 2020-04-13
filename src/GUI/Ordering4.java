@@ -125,7 +125,7 @@ public class Ordering4 extends JFrame{
 		JButton btnNewButton_1_1 = new JButton("Take-out");
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				bill.setPacket("Take-out");
+				bill.setPacket("Take-away");
 				frmRamenBuffetSystem.setVisible(false);
 				new Login1(bill);
 			}

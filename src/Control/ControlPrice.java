@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 
 public class ControlPrice {
 
-    public Price chgPriceData(Price price) {
+    public void chgPriceData(Price price) {
         // Set the data format as A.BC to each price.
         DecimalFormat df = new DecimalFormat("0.00");
         String num;
@@ -24,6 +24,14 @@ public class ControlPrice {
 
         num = df.format(price.getExChashu());
         price.setExChashu(Double.parseDouble(num));
-        return price;
+        return;
+    }
+
+    public Double chkPriceData(String price) {
+        if(price.matches("^^\\d+(\\.\\d+)?$")) {
+            return Double.parseDouble(price);
+        } else {
+            return -1.00;
+        }
     }
 }

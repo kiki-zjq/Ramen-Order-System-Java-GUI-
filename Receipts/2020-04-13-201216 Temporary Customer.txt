@@ -1,17 +1,17 @@
 User: Temporary Customer
 User id: XX0000
-Date: 2020-04-12-00:57:41
-Soup: Shio
+Date: 2020-04-13-20:12:16
+Soup: Tonkotsu
 Noodle: Medium
-Nori: Yes
-Chashu: Yes
-BoiledEgg: Yes
-Spiciness: 1
+Nori: No-Nori
+Chashu: No-Chashu
+BoiledEgg: No
+Spiciness: 0(No)
 Extra Nori: No
 Extra BoiledEgg:No
 BambooShoot: No
 Extra Chashu: No
-Total Price: 9.99
+Total Price: 12.00
 If Free: No
 Pay Option: cash
-Packet: Take-out
+Packet: Eat-in

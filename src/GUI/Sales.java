@@ -154,6 +154,10 @@ public class Sales extends JFrame{
 				"Cash      " + statistics.getPayOption() + "\r\n" +
 				"Stamp      " + statistics.getIfFreeY() + "\r\n" +
 				"\r\n" +
+				"Packet" + "\r\n" +
+				"Take-away      " + statistics.getPacketTakeAway() + "\r\n" +
+				"Eat-in      " + statistics.getPacketEatIn() + "\r\n" +
+				"\r\n" +
 				"Total Bill     " + statistics.getTotalBill() + "\r\n" +
 				"Total Price      " + statistics.getTotalPrice());
 		txtpnYouAlreadyHave.setFont(new Font("MV Boli", Font.BOLD, 21));

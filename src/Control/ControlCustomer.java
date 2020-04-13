@@ -79,10 +79,10 @@ public class ControlCustomer {
         // JudgeCode = 000 indicates the input is correct.
         customer.setJudgeCode("000");
         if(mobile.isEmpty()) {
-            customer.setMobile("null");
+            customer.setMobile("No-imformation");
         }
         if (email.isEmpty()) {
-            customer.setEmail("null");
+            customer.setEmail("No-imformation");
         }
         customer.setFirname(firname);
         customer.setSurname(surname);

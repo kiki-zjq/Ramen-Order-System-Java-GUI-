@@ -134,6 +134,9 @@ public class ModifyMenu3 extends JFrame{
 	    comboBox.addItem("Extra_Chashu");
 	    comboBox.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				textField_2.setText("");
+				textField_3.setText("");
+				lblNewLabel.setText("Please select the menu that needs to be modified!");
 				try {
 					textField.setText(priceDao.searchPrice(price, (String)comboBox.getSelectedItem()));
 					textField_1.setText(availableDao.searchState(available, (String)comboBox.getSelectedItem()));
@@ -202,7 +205,7 @@ public class ModifyMenu3 extends JFrame{
 			}
 		});
 		
-		JLabel lblNewLabel_2_3 = new JLabel("Before");
+		JLabel lblNewLabel_2_3 = new JLabel("Now");
 		lblNewLabel_2_3.setFont(new Font("MV Boli", Font.BOLD, 26));
 		lblNewLabel_2_3.setBounds(166, 188, 93, 38);
 		panel.add(lblNewLabel_2_3);
@@ -229,13 +232,12 @@ public class ModifyMenu3 extends JFrame{
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
+					ControlPrice controlPrice = new ControlPrice();
 					if(!textField_2.getText().isEmpty() || !textField_3.getText().isEmpty()) {
-						if (!textField_2.getText().isEmpty())
+						if (!textField_2.getText().isEmpty() && controlPrice.chkPriceData(textField_2.getText()) != -1.00)
 							price = priceDao.changePrice(price, (String) comboBox.getSelectedItem(), Double.parseDouble(textField_2.getText()));
-						if (!textField_3.getText().isEmpty()) {
+						if (!textField_3.getText().isEmpty())
 							available = availableDao.changeState(available, (String) comboBox.getSelectedItem(), textField_3.getText());
-						}
-						ControlPrice controlPrice = new ControlPrice();
 						controlPrice.chgPriceData(price);
 						if (priceDao.setPrice(price) == 1)
 							lblNewLabel.setText(comboBox.getSelectedItem() + " price/state has been changed!");
@@ -243,12 +245,14 @@ public class ModifyMenu3 extends JFrame{
 							lblNewLabel.setText(comboBox.getSelectedItem() + " price/state has been changed!");
 						textField.setText(priceDao.searchPrice(price, (String) comboBox.getSelectedItem()));
 						textField_1.setText(availableDao.searchState(available, (String) comboBox.getSelectedItem()));
+						if(controlPrice.chkPriceData(textField_2.getText()) == -1.00 && !textField_2.getText().isEmpty())
+							lblNewLabel.setText("Please enter the correct price format.");
 					}
-					else
-						lblNewLabel.setText("Please choose state you want to change.");
 				} catch (IOException ex) {
 					ex.printStackTrace();
 				}
+				textField_2.setText("");
+				textField_3.setText("");
 			}
 		});
 		btnNewButton_1.setForeground(new Color(255, 20, 147));

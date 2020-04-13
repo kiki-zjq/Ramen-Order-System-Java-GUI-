@@ -142,7 +142,7 @@ public class ModifyMenu1 extends JFrame{
 		textField_2.setBounds(332, 297, 176, 38);
 		panel.add(textField_2);
 		
-		JLabel lblNewLabel_2_3 = new JLabel("Before");
+		JLabel lblNewLabel_2_3 = new JLabel("Now");
 		lblNewLabel_2_3.setFont(new Font("MV Boli", Font.BOLD, 26));
 		lblNewLabel_2_3.setBounds(166, 240, 93, 38);
 		panel.add(lblNewLabel_2_3);
@@ -163,18 +163,25 @@ public class ModifyMenu1 extends JFrame{
 		JButton btnNewButton_1 = new JButton("Confirm");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				frmRamenBuffetSystem.setVisible(false);
+				ControlPrice controlPrice = new ControlPrice();
 				PriceDao priceDao = new PriceDao();
-				if(!textField_2.getText().isEmpty())
+				if(!textField_2.getText().isEmpty() && controlPrice.chkPriceData(textField_2.getText()) != -1.00) {
 					price.setRamen(Double.parseDouble(textField_2.getText()));
-				try {
-					ControlPrice controlPrice = new ControlPrice();
-					controlPrice.chgPriceData(price);
-					priceDao.setPrice(price);
-					new ModifyMenu1();
-				} catch (IOException ex) {
-					ex.printStackTrace();
+					try {
+						controlPrice.chgPriceData(price);
+						priceDao.setPrice(price);
+						lblNewLabel.setText("Ramen price has been changed!");
+						//new ModifyMenu1();
+					} catch (IOException ex) {
+						ex.printStackTrace();
+					}
 				}
+				if(textField_2.getText().isEmpty())
+					lblNewLabel.setText("Please write down the price you want to modify!");
+				else if(controlPrice.chkPriceData(textField_2.getText()) == -1.00)
+					lblNewLabel.setText("Please enter the correct price format.");
+				textField.setText(String.valueOf(price.getRamen()));
+				textField_2.setText("");
 			}
 		});
 		btnNewButton_1.setForeground(new Color(255, 20, 147));

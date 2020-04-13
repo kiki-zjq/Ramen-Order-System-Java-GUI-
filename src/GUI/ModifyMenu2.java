@@ -132,6 +132,7 @@ public class ModifyMenu2 extends JFrame{
 	    comboBox.addItem("noodleSoft");
 	    comboBox.addItem("noodleMedium");
 	    comboBox.addItem("noodleFirm");
+	    comboBox.addItem("Nori");
 	    comboBox.addItem("onion");
 		comboBox.addItem("chashu");
 		comboBox.addItem("boiledEgg");
@@ -140,6 +141,8 @@ public class ModifyMenu2 extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				try {
 					textField_1.setText(availableDao.searchState(available, (String)comboBox.getSelectedItem()) );
+					lblNewLabel.setText("Please choose state you want to change.");
+					textField_3.setText("");
 				} catch (IOException ex) {
 					ex.printStackTrace();
 				}
@@ -185,7 +188,7 @@ public class ModifyMenu2 extends JFrame{
 			}
 		});
 		
-		JLabel lblNewLabel_2_3 = new JLabel("Before");
+		JLabel lblNewLabel_2_3 = new JLabel("Now");
 		lblNewLabel_2_3.setFont(new Font("MV Boli", Font.BOLD, 26));
 		lblNewLabel_2_3.setBounds(166, 229, 93, 38);
 		panel.add(lblNewLabel_2_3);
@@ -207,7 +210,7 @@ public class ModifyMenu2 extends JFrame{
 					if(!textField_3.getText().isEmpty()) {
 						available = availableDao.changeState(available, (String) comboBox.getSelectedItem(), textField_3.getText());
 						if (availableDao.setAvailable(available) == 1)
-							lblNewLabel.setText("Well done" + comboBox.getSelectedItem() + " state has been changed!");
+							lblNewLabel.setText("Well done! " + comboBox.getSelectedItem() + " state has been changed!");
 						textField_1.setText(availableDao.searchState(available, (String) comboBox.getSelectedItem()));
 					}
 					else
@@ -215,6 +218,7 @@ public class ModifyMenu2 extends JFrame{
 				} catch (IOException ex) {
 					ex.printStackTrace();
 				}
+				textField_3.setText("");
 			}
 		});
 		btnNewButton_1.setForeground(new Color(255, 20, 147));

@@ -166,7 +166,7 @@ public class Pay1 extends JFrame{
 		btnNewButton.setBounds(392, 379, 133, 61);
 		panel.add(btnNewButton);
 		
-		JButton btnNewButton_1_1 = new JButton("Cash/card");
+		JButton btnNewButton_1_1 = new JButton("Cash/Card");
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				customer.setStamp(customer.getStamp() + 1);

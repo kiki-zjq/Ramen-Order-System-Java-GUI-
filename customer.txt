@@ -1,16 +1,1 @@
-QQ0001 0 Yes Qqwdq Qwsq 12121 null
-FQ0002 0 Yes Fef Qwdqw 123123 xasx@as.asc
-AQ0003 0 Yes Asxas Qwe 12312 No-information
-AA0004 0 Yes Asdasd Asdas 123 No-information
-SA0005 0 Yes Sadasd Adasdfa null asdas@asda.asd
-AQ0006 0 Yes Ascaca Qwq 1234 g@g.g
-ZK0007 1 Yes Zjq Kiki 18810701233 zhujiangqi@gmial.com
-ZJ0008 0 Yes Zhu Jiangqi 188107012333 zhujiangqi@gmail.com
-CX0009 0 Yes Ccccccczxczxczxc Xczxczxczxczccccccccccccccccccccccccccccccccccc 12 3@1.com
-SX0010 0 Yes S Xzczidhasx 1 asdd@q.c
-AX0011 0 Yes Asd Xc 112312 12asdasd3@1.com
-XA0012 0 Yes Xc Asd 123456777 123esdf3213e@1.com
-XA0013 0 Yes Xc Asd 1123123 12asdasd3@1.comm
-ZZ0014 0 Yes Zxczxc Zxc 123999999 xc.xasx@as.asc
-AX0015 0 Yes Asdxv Xcasdfrqw 11111111111111111111111 3.3@1.com
-SZ0016 0 Yes Sadqedsxc Zxczxc 121398795 1@1.1
+DA0001 0 Yes Dasda Asas 1212 null

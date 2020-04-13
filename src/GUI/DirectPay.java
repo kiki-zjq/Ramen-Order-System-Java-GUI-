@@ -118,7 +118,7 @@ public class DirectPay extends JFrame{
 		lblNewLabel.setBounds(33, 59, 471, 66);
 		panel.add(lblNewLabel);
 		
-		JButton btnNewButton_1_1 = new JButton("Cash/card");
+		JButton btnNewButton_1_1 = new JButton("Cash/Card");
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmRamenBuffetSystem.setVisible(false);
