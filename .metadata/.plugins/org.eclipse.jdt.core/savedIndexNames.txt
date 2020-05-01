@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\grape\Desktop\Software_Engineering\.metadata\.plugins\org.eclipse.jdt.core
-3253861496.index

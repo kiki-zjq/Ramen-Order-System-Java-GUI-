@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f1e4e46-c2a9-4a69-9052-4ae197d0430d" name="Default Changelist" comment="" />
+    <list default="true" id="319353cd-1278-4921-a514-4fcb8508737a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +28,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1ZHhWgrnEGZO1aiB3iKnrXBfVqr" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1ag5QpRoL0iOiJWkRVTcFOLnkKR" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/seventeen/group/Service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,16 +56,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="seventeen.group.Service.Impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\陈俊含\Desktop\Software_Engineering\src\Entity" />
-      <recent name="C:\Users\陈俊含\Desktop\Software_Engineering\src\Control" />
-      <recent name="C:\Users\陈俊含\Desktop\Software_Engineering\src\Dao" />
+      <recent name="C:\Users\陈俊含\Desktop\Software_Engineering_Frame\src\main\java" />
+      <recent name="C:\Users\陈俊含\Desktop\Software_Engineering_Frame\src\main\java\Service\Impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,28 +82,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.start">
-    <configuration name="ControlBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Control.ControlBill" />
-      <module name="Software_Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Control.ControlBill" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11 (2)" />
+  <component name="RunManager" selected="Application.Start">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Control.ControlPrice" />
+      <option name="MAIN_CLASS_NAME" value="seventeen.group.GUI.Start" />
       <module name="Software_Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Control.*" />
+          <option name="PATTERN" value="seventeen.group.GUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,60 +98,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.LogIn" />
-      <module name="Software_Engineering" />
+    <configuration name="CustomerServiceTest.testChkCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software_Engineering_Frame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUI.*" />
+          <option name="PATTERN" value="seventeen.group.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mydemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.Mydemo" />
-      <module name="Software_Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GUI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11.0.4" />
-      <option name="MAIN_CLASS_NAME" value="GUI.start" />
-      <module name="Software_Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GUI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="seventeen.group.test" />
+      <option name="MAIN_CLASS_NAME" value="seventeen.group.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="testChkCustomer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ControlBill" />
-      <item itemvalue="Application.LogIn" />
-      <item itemvalue="Application.Mydemo" />
-      <item itemvalue="Application.start" />
-      <item itemvalue="Application.ControlPrice" />
+      <item itemvalue="Application.Start" />
+      <item itemvalue="JUnit.CustomerServiceTest.testChkCustomer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.start" />
-        <item itemvalue="Application.ControlPrice" />
-        <item itemvalue="Application.Mydemo" />
-        <item itemvalue="Application.LogIn" />
-        <item itemvalue="Application.ControlBill" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.CustomerServiceTest.testChkCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -166,75 +130,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f1e4e46-c2a9-4a69-9052-4ae197d0430d" name="Default Changelist" comment="" />
-      <created>1584501959634</created>
+      <changelist id="319353cd-1278-4921-a514-4fcb8508737a" name="Default Changelist" comment="" />
+      <created>1587144383001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584501959634</updated>
-      <workItem from="1584501961136" duration="20855000" />
-      <workItem from="1584536962606" duration="2533000" />
-      <workItem from="1584542744661" duration="735000" />
-      <workItem from="1584768986409" duration="19000" />
-      <workItem from="1584789444290" duration="2000" />
-      <workItem from="1584792404537" duration="2538000" />
-      <workItem from="1584848122671" duration="11000" />
-      <workItem from="1584879552110" duration="266000" />
-      <workItem from="1584880154193" duration="27000" />
-      <workItem from="1584957574793" duration="4419000" />
-      <workItem from="1585026150023" duration="5067000" />
-      <workItem from="1585379373862" duration="698000" />
-      <workItem from="1585390322134" duration="4924000" />
-      <workItem from="1585452941845" duration="13000" />
-      <workItem from="1585477369121" duration="7167000" />
-      <workItem from="1585484710432" duration="1696000" />
-      <workItem from="1585486477321" duration="79000" />
-      <workItem from="1585650976620" duration="604000" />
-      <workItem from="1585651741485" duration="1228000" />
-      <workItem from="1585661008198" duration="656000" />
-      <workItem from="1585670919509" duration="5402000" />
-      <workItem from="1585678346809" duration="602000" />
-      <workItem from="1585679676579" duration="8000" />
-      <workItem from="1586504945554" duration="3845000" />
-      <workItem from="1586514089555" duration="421000" />
-      <workItem from="1586514612173" duration="3048000" />
-      <workItem from="1586594185624" duration="7682000" />
-      <workItem from="1586611128953" duration="200000" />
-      <workItem from="1586621365449" duration="646000" />
-      <workItem from="1586668228442" duration="2380000" />
+      <updated>1587144383001</updated>
+      <workItem from="1587144384651" duration="2998000" />
+      <workItem from="1587147565585" duration="664000" />
+      <workItem from="1587148250756" duration="519000" />
+      <workItem from="1587148807734" duration="2045000" />
+      <workItem from="1587176015819" duration="1149000" />
+      <workItem from="1587177239575" duration="176000" />
+      <workItem from="1587177859638" duration="6000" />
+      <workItem from="1587182388701" duration="1083000" />
+      <workItem from="1587184381924" duration="2302000" />
+      <workItem from="1587190977145" duration="8470000" />
+      <workItem from="1587720595084" duration="1022000" />
+      <workItem from="1587783557093" duration="118000" />
+      <workItem from="1587783696003" duration="2208000" />
+      <workItem from="1587786151805" duration="1832000" />
+      <workItem from="1587791433727" duration="4169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-9" y="89" key="#Project_Structure" timestamp="1586594249802">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="-9" y="89" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1586594249802" />
-    <state x="-313" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586594234082">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="-313" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1586594234082" />
-    <state x="335" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1586594253122">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="335" y="313" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586594253122" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Software_Engineering$start.ic" NAME="start Coverage Results" MODIFIED="1586621682593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>GUI.*</FILTER>
-    </SUITE>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/Service/Impl/BillServiceImpl.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/Dao/Impl/CustomerDaoImpl.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/Service/Impl/PriceServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/Dao/Impl/AvailableDaoImpl.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/GUI/ManageLogin.java</url>
+          <line>13</line>
+          <properties field="frmRamenBuffetSystem" class="seventeen.group.GUI.ManageLogin" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/seventeen/group/Dao/Impl/AvailableDaoImpl.java</url>
+          <line>82</line>
+          <properties class="seventeen.group.Dao.Impl.AvailableDaoImpl" method="setAvailable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

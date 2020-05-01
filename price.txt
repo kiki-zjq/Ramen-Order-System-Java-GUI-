@@ -1,5 +1,0 @@
-Ramen 12.0
-Extra_Nori 1.0
-Extra_Boiled_Egg 121.0
-Bamboo_Shoots 1.0
-Extra_Chashu 1.1
